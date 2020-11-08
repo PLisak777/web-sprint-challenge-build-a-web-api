@@ -72,12 +72,12 @@ You are expected to be able to answer questions in these areas. Your responses c
 
 ### Task 1: Project Set Up
 
-- [ ] Create a forked copy of this project
-- [ ] Add your team lead as collaborator on Github
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!)
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
-- [ ] Push commits: git push origin `<firstName-lastName>`
+- [x] Create a forked copy of this project
+- [x] Add your team lead as collaborator on Github
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!)
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
+- [x] Push commits: git push origin `<firstName-lastName>`
 
 ### Task 2: Project Requirements
 
@@ -85,16 +85,16 @@ Your finished project must include all of the following requirements:
 
 #### NPM Scripts
 
-- [ ] An _npm script_ named _"server"_ that uses `nodemon`to run the API server.
-- [ ] Use _nodemon_ as a development time dependency only that is not deployed to production.
-- [ ] An _npm script_ named _"start"_ that uses `node` to run the API server.
+- [x] An _npm script_ named _"server"_ that uses `nodemon`to run the API server.
+- [x] Use _nodemon_ as a development time dependency only that is not deployed to production.
+- [x] An _npm script_ named _"start"_ that uses `node` to run the API server.
 
 #### Build an API
 
-- [ ] Design and build endpoints for performing CRUD operations on _projects_ and _actions_. When adding an action, make sure the `project_id` provided belongs to an existing `project`. If you try to add an action with an `id` of 3 and there is no project with that `id` the database will return an error.
-- [ ] Add an endpoint for retrieving the list of actions for a project.
-- [ ] Use an HTTP client like `postman` or `insomnia` to test the API's endpoints.
-- [ ] Use Express Routers to organize the API's code.
+- [x] Design and build endpoints for performing CRUD operations on _projects_ and _actions_. When adding an action, make sure the `project_id` provided belongs to an existing `project`. If you try to add an action with an `id` of 3 and there is no project with that `id` the database will return an error.
+- [x] Add an endpoint for retrieving the list of actions for a project.
+- [x] Use an HTTP client like `postman` or `insomnia` to test the API's endpoints.
+- [x] Use Express Routers to organize the API's code.
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. You will be scored on your adherence to proper code style and good organization. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
