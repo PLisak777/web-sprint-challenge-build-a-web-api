@@ -12,3 +12,16 @@ I need this code, but don't know where, perhaps should make some middleware, don
 
 Go code!
 */
+
+const PORT = process.env.PORT || 5000;
+
+const server = require('./server');
+const actionsRouter = require('./Actions/actionsRouter');
+// const projectsRouter = require('./Projects/projectsRouter')
+
+server.use('/api/actions', actionsRouter);
+// server.use('/api/projects', projectsRouter)
+
+server.listen(PORT, () => {
+	console.log(`Listening on port ${PORT}`);
+});
